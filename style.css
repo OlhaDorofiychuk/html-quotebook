@@ -13,3 +13,34 @@ header {
 h1 {
   padding: 35px;
 }
+
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+
+}
+.Author{
+  background-color: silver;
+  height: 600px;
+  display: grid;
+  grid-template: 
+  "whitespace authorquotes whitespace" 200px
+  "whitespace authorquotes whitespace" 200px
+  "whitespace authorquotes whitespace" 200px /
+  1fr 500px 1fr;
+}
+
+.whitespace{
+  grid-area: whitespace;
+
+}
+.Quote1{
+  grid-area: ;
+  border: greenyellow solid;
+  padding: 20px;
+  background-color: greenyellow;
+
+ }
+
