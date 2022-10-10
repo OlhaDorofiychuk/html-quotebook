@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(92, 10, 92);
+  height: 120px;
+  color: white;
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+h1 {
+  padding: 35px;
+}
