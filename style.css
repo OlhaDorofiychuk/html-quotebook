@@ -10,6 +10,9 @@ header {
   color: white;
   font-weight: 600;
   font-size: 1.7rem;
+  position: sticky;
+  top: 0;
+  overflow: scroll;
 }
 h1 {
   padding: 35px;
@@ -20,30 +23,11 @@ h2 {
   font-weight: bold;
   text-align: center;
   margin-top: 40px;
+  font-size: 3rem;
+  text-align: left;
+  
+  
 }
-/* .Author{
-  background-color: silver;
-  height: 600px;
-  display: grid;
-  grid-template: 
-  "whitespace authorquotes whitespace" 200px
-  "whitespace authorquotes whitespace" 200px
-  "whitespace authorquotes whitespace" 200px /
-  1fr 500px 1fr;
-}
-
-.whitespace{
-  grid-area: whitespace;
-
-}
-.Quote1{
-  grid-area: ;
-  border: greenyellow solid;
-  padding: 20px;
-  background-color: greenyellow;
-
- }
- */
 main {
   max-width: 1000px;
 }
@@ -79,4 +63,15 @@ span {
   right: 20px;
   font-size: 1.5rem;
   font-weight: bold;
+}
+.books{
+  background-color: rgba(153, 205, 50, 0.158);
+}
+
+.subheader{
+  align-items: start;
+  display: grid;
+  grid-template-rows: 1fr;
+  
+
 }
